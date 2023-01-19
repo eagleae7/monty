@@ -1,4 +1,4 @@
-nclude "monty.h"
+#include "monty.h"
 
 /**
 * free_stack - function that frees a doubly linked list
@@ -32,4 +32,3 @@ void f_stack(stack_t **head, unsigned int counter)
 	(void)counter;
 	bus.lifi = 0;
 }
-
